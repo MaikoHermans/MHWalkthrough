@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		228CCD11DE6FAEDE6A493646 /* Pods_MHWalkthrough.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858472A6470BB3A121238AB2 /* Pods_MHWalkthrough.framework */; };
+		7F02BFA01E79A59200061784 /* MHWalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BF9F1E79A59200061784 /* MHWalkthroughViewController.swift */; };
+		7F02BFA21E79A5E900061784 /* MHWalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BFA11E79A5E900061784 /* MHWalkthroughPageViewController.swift */; };
+		7F02BFA41E79A63200061784 /* MHWalkthroughPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BFA31E79A63200061784 /* MHWalkthroughPageControl.swift */; };
 		7FED09F21E79A1A300CB178E /* MHWalkthrough.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FED09E81E79A1A300CB178E /* MHWalkthrough.framework */; };
 		7FED09F71E79A1A300CB178E /* MHWalkthroughTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FED09F61E79A1A300CB178E /* MHWalkthroughTests.swift */; };
 		7FED09F91E79A1A300CB178E /* MHWalkthrough.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FED09EB1E79A1A300CB178E /* MHWalkthrough.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,12 +27,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F02BF9F1E79A59200061784 /* MHWalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHWalkthroughViewController.swift; sourceTree = "<group>"; };
+		7F02BFA11E79A5E900061784 /* MHWalkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHWalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		7F02BFA31E79A63200061784 /* MHWalkthroughPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHWalkthroughPageControl.swift; sourceTree = "<group>"; };
 		7FED09E81E79A1A300CB178E /* MHWalkthrough.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MHWalkthrough.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FED09EB1E79A1A300CB178E /* MHWalkthrough.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHWalkthrough.h; sourceTree = "<group>"; };
 		7FED09EC1E79A1A300CB178E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FED09F11E79A1A300CB178E /* MHWalkthroughTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHWalkthroughTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FED09F61E79A1A300CB178E /* MHWalkthroughTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHWalkthroughTests.swift; sourceTree = "<group>"; };
 		7FED09F81E79A1A300CB178E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		858472A6470BB3A121238AB2 /* Pods_MHWalkthrough.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHWalkthrough.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1EBFF01AE3D1505118E585 /* Pods-MHWalkthrough.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHWalkthrough.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHWalkthrough/Pods-MHWalkthrough.release.xcconfig"; sourceTree = "<group>"; };
+		F08B47838B630D532F18F29D /* Pods-MHWalkthrough.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHWalkthrough.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHWalkthrough/Pods-MHWalkthrough.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				228CCD11DE6FAEDE6A493646 /* Pods_MHWalkthrough.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +61,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		098412EF79B4DBEECA4E97CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				858472A6470BB3A121238AB2 /* Pods_MHWalkthrough.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F02BF9E1E79A55100061784 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BF9F1E79A59200061784 /* MHWalkthroughViewController.swift */,
+				7F02BFA11E79A5E900061784 /* MHWalkthroughPageViewController.swift */,
+				7F02BFA31E79A63200061784 /* MHWalkthroughPageControl.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7FED09DE1E79A1A300CB178E = {
 			isa = PBXGroup;
 			children = (
 				7FED09EA1E79A1A300CB178E /* MHWalkthrough */,
 				7FED09F51E79A1A300CB178E /* MHWalkthroughTests */,
 				7FED09E91E79A1A300CB178E /* Products */,
+				D67E206B4DC48F803E36A173 /* Pods */,
+				098412EF79B4DBEECA4E97CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +102,7 @@
 		7FED09EA1E79A1A300CB178E /* MHWalkthrough */ = {
 			isa = PBXGroup;
 			children = (
+				7F02BF9E1E79A55100061784 /* Classes */,
 				7FED09EB1E79A1A300CB178E /* MHWalkthrough.h */,
 				7FED09EC1E79A1A300CB178E /* Info.plist */,
 			);
@@ -84,6 +116,15 @@
 				7FED09F81E79A1A300CB178E /* Info.plist */,
 			);
 			path = MHWalkthroughTests;
+			sourceTree = "<group>";
+		};
+		D67E206B4DC48F803E36A173 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F08B47838B630D532F18F29D /* Pods-MHWalkthrough.debug.xcconfig */,
+				9B1EBFF01AE3D1505118E585 /* Pods-MHWalkthrough.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FED09FC1E79A1A300CB178E /* Build configuration list for PBXNativeTarget "MHWalkthrough" */;
 			buildPhases = (
+				E8758B1237D732289FC693CB /* [CP] Check Pods Manifest.lock */,
 				7FED09E31E79A1A300CB178E /* Sources */,
 				7FED09E41E79A1A300CB178E /* Frameworks */,
 				7FED09E51E79A1A300CB178E /* Headers */,
 				7FED09E61E79A1A300CB178E /* Resources */,
+				2C7231A0FD85276F7EB5F511 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 					7FED09E71E79A1A300CB178E = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 537UN6KEVU;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					7FED09F01E79A1A300CB178E = {
@@ -193,11 +237,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C7231A0FD85276F7EB5F511 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHWalkthrough/Pods-MHWalkthrough-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8758B1237D732289FC693CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7FED09E31E79A1A300CB178E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F02BFA01E79A59200061784 /* MHWalkthroughViewController.swift in Sources */,
+				7F02BFA21E79A5E900061784 /* MHWalkthroughPageViewController.swift in Sources */,
+				7F02BFA41E79A63200061784 /* MHWalkthroughPageControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +401,9 @@
 		};
 		7FED09FD1E79A1A300CB178E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08B47838B630D532F18F29D /* Pods-MHWalkthrough.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 537UN6KEVU;
@@ -334,13 +416,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhermans.MHWalkthrough;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		7FED09FE1E79A1A300CB178E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1EBFF01AE3D1505118E585 /* Pods-MHWalkthrough.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 537UN6KEVU;
@@ -360,6 +445,7 @@
 		7FED0A001E79A1A300CB178E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 537UN6KEVU;
 				INFOPLIST_FILE = MHWalkthroughTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +458,7 @@
 		7FED0A011E79A1A300CB178E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 537UN6KEVU;
 				INFOPLIST_FILE = MHWalkthroughTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +487,7 @@
 				7FED09FE1E79A1A300CB178E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FED09FF1E79A1A300CB178E /* Build configuration list for PBXNativeTarget "MHWalkthroughTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +496,7 @@
 				7FED0A011E79A1A300CB178E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
